@@ -44,7 +44,7 @@ header {
   background: none;
   border: none;
   border-bottom: 2px solid var(--verde_claro);
-  color: var(--verde_claro);
+  color: var(--verde_escuro);
 }
 
 .header-top button {
@@ -100,6 +100,7 @@ main {
 }
 
 .container-pre-main {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,12 +115,20 @@ main {
   font-size: 1.25rem;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 main .main {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 10px;
   height: 75vh;
+  width: 75%;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -153,7 +162,8 @@ main .main {
   margin-bottom: 1rem;
 }
 
-.main #instagram_main, #whatsapp_main {
+.main #instagram_main,
+#whatsapp_main {
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -164,11 +174,11 @@ main .main {
   justify-content: end;
 }
 
-#instagram_main{
+#instagram_main {
   background-image: url(../assets/img/image2.png);
 }
 
-#whatsapp_main{
+#whatsapp_main {
   background-image: url(../assets/img/image3.png);
 }
 
@@ -207,6 +217,7 @@ main .main {
   align-items: center;
   justify-content: space-around;
   background-color: #f7f1d6;
+  width: 100%;
   height: 10vh;
 }
 
@@ -242,7 +253,6 @@ main .main {
 
 footer {
   bottom: 0;
-  /* position: fixed; */
   width: 100%;
   color: var(--verde_escuro);
 }
