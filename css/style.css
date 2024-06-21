@@ -97,10 +97,14 @@ nav a {
 
 main {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-pre-main {
-  width: 100%;
+  width: 100%; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,13 +117,6 @@ main {
   background-color: var(--amarelo);
   text-align: center;
   font-size: 1.25rem;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 main .main {
