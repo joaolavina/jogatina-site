@@ -131,9 +131,9 @@ main .main {
 }
 
 .main #lastnews {
-  background-image: url(../assets/img/image1.png);
+  background-image: url(../assets/img/banner_g.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   grid-column: 1 / 2;
   grid-row: 1 / 3;
@@ -172,11 +172,11 @@ main .main {
 }
 
 #instagram_main {
-  background-image: url(../assets/img/image2.png);
+  background-image: url(../assets/img/banner_p1.jpg);
 }
 
 #whatsapp_main {
-  background-image: url(../assets/img/image3.png);
+  background-image: url(../assets/img/banner_p2.jpg);
 }
 
 #instagram_main h1 {
